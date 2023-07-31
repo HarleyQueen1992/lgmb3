@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="accept-ch" content="DPR" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <style>
+      .loader {
+        position: fixed;
+        inset: 0rem;
+        display: grid;
+        place-items: center;
+        background-color: white;
+        z-index: 50;
+      }
+      .loader__img {
+        width: 4.5rem;
+        transition: all 0.5s;
+        animation: anim 2s linear infinite;
+      }
+
+      @keyframes anim {
+        50% {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+      <img src="./assets/images/Logo.svg" class="loader__img" />
+    </div>
+  </body>
+</html>

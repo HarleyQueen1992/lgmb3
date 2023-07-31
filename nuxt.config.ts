@@ -11,12 +11,19 @@ export default defineNuxtConfig({
   elementPlus: {
     /** Options */
   },
+  spaLoadingTemplate: './app-loading.html',
   ssr: false,
   nitro: {
     preset: 'service-worker',
   },
-  css: [
-    // SCSS file in the project
-    '~/assets/style/main.scss',
-  ],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/style/variables.scss" as *;',
+        },
+      },
+    },
+  },
+  css: ['~/assets/style/main.scss'],
 });
