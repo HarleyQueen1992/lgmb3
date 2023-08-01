@@ -135,4 +135,9 @@
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 1000px) {
+  .header {
+    display: none;
+  }
+}
 </style>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1011.89 199.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e7363f;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 46.98px;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        fill: #168ccd;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g>
+      <g class="cls-7">
+        <text class="cls-5" transform="translate(234.26 88.31)"><tspan x="0" y="0">Луганская </tspan></text>
+        <text class="cls-6" transform="translate(483.62 88.31)"><tspan x="0" y="0">Г</tspan></text>
+        <text class="cls-2" transform="translate(507.91 88.31)"><tspan x="0" y="0">о</tspan></text>
+        <text class="cls-5" transform="translate(535.99 88.31)"><tspan x="0" y="0">с</tspan></text>
+        <text class="cls-3" transform="translate(562.12 88.31)"><tspan x="0" y="0">у</tspan></text>
+        <text class="cls-5" transform="translate(587.06 88.31)"><tspan x="0" y="0">дарст</tspan></text>
+        <text class="cls-2" transform="translate(720.82 88.31)"><tspan x="0" y="0">в</tspan></text>
+        <text class="cls-5" transform="translate(749.09 88.31)"><tspan x="0" y="0">енная </tspan></text>
+        <text class="cls-5" transform="translate(234.26 144.69)"><tspan x="0" y="0">Мно</tspan></text>
+        <text class="cls-2" transform="translate(330.46 144.69)"><tspan x="0" y="0">г</tspan></text>
+        <text class="cls-5" transform="translate(349.4 144.69)"><tspan x="0" y="0">опрофильная Б</tspan></text>
+        <text class="cls-3" transform="translate(721.26 144.69)"><tspan x="0" y="0">о</tspan></text>
+        <text class="cls-5" transform="translate(748.78 144.69)"><tspan x="0" y="0">льни</tspan></text>
+        <text class="cls-4" transform="translate(864.76 144.69)"><tspan x="0" y="0">ц</tspan></text>
+        <text class="cls-5" transform="translate(894.21 144.69)"><tspan x="0" y="0">а №3</tspan></text>
+      </g>
+      <g>
+        <g>
+          <rect class="cls-8" y="66.57" width="49.93" height="16.64"/>
+          <rect class="cls-8" y="66.57" width="16.64" height="66.57"/>
+          <rect class="cls-8" y="116.5" width="99.85" height="16.64"/>
+        </g>
+        <g>
+          <rect class="cls-1" x="66.67" y="149.78" width="16.64" height="49.93"/>
+          <rect class="cls-1" x="66.67" y="183.06" width="66.57" height="16.64"/>
+          <rect class="cls-1" x="116.59" y="116.5" width="16.64" height="83.21"/>
+        </g>
+        <g>
+          <rect class="cls-8" x="149.78" y="116.5" width="49.93" height="16.64"/>
+          <rect class="cls-8" x="183.06" y="66.57" width="16.64" height="66.57"/>
+          <rect class="cls-8" x="99.85" y="66.57" width="99.85" height="16.64"/>
+        </g>
+        <g>
+          <rect class="cls-1" x="116.5" width="16.64" height="49.93"/>
+          <rect class="cls-1" x="66.57" width="66.57" height="16.64"/>
+          <rect class="cls-1" x="66.57" width="16.64" height="83.21"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

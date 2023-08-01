@@ -10,7 +10,16 @@ li {
   list-style-type: none;
 }
 a {
+  color: black;
   text-decoration: none;
+}
+.link {
+  cursor: pointer;
+  color: $primary;
+}
+.email {
+  color: $light-blue !important;
+  text-decoration: underline;
 }
 .container {
   width: 1440px;
