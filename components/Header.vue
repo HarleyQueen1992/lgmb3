@@ -56,6 +56,9 @@
               </template>
             </el-dropdown>
             <li class="header-row-2-container-menu-list__item">
+              <nuxt-link to="/branches">Отделения</nuxt-link>
+            </li>
+            <li class="header-row-2-container-menu-list__item">
               <nuxt-link to="/contacts">Контакты</nuxt-link>
             </li>
           </ul>
@@ -110,7 +113,7 @@
           justify-self: end;
           &-list {
             display: grid;
-            grid-template-columns: repeat(3, auto);
+            grid-template-columns: repeat(4, auto);
             grid-column-gap: 50px;
             &__item {
               font-size: 18px;
