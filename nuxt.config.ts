@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  modules: ['@element-plus/nuxt', 'nuxt-icon'],
+  modules: ['@element-plus/nuxt', 'nuxt-icon', '@hypernym/nuxt-anime'],
   elementPlus: {
     /** Options */
   },
