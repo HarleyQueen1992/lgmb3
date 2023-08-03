@@ -213,9 +213,6 @@
             justify-self: start;
             font-size: 14px;
           }
-
-          &-1 {
-          }
         }
       }
       &-3 {

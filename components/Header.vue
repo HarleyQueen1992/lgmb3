@@ -18,39 +18,32 @@
     </div>
     <div class="header-row-2">
       <div class="header-row-2-container container">
-        <div class="header-row-2-container-logo">
+        <nuxt-link to="/" class="header-row-2-container-logo">
           <img src="/assets/images/LogoBig.svg" alt="logo" />
-        </div>
+        </nuxt-link>
         <div class="header-row-2-container-menu">
           <ul class="header-row-2-container-menu-list">
             <li class="header-row-2-container-menu-list__item">
               <nuxt-link to="/">Главная</nuxt-link>
             </li>
             <el-dropdown class="header-row-2-container-menu-list__item">
-              <span class="el-dropdown-link" @click="$router.push('/history')">
+              <span class="el-dropdown-link" @click="$router.push('/about')">
                 О больнице
               </span>
               <template #dropdown>
                 <el-dropdown-menu>
-                  <el-dropdown-item
-                    ><nuxt-link to="/history"
-                      >Историческая спарвка</nuxt-link
-                    ></el-dropdown-item
+                  <el-dropdown-item @click="$router.push('/about/history')"
+                    >Историческая спарвка</el-dropdown-item
+                  >
+                  <el-dropdown-item @click="$router.push('/about/management')">
+                    Руководство</el-dropdown-item
+                  >
+                  <el-dropdown-item @click="$router.push('/about/licenses')"
+                    >Лицензии</el-dropdown-item
                   >
                   <el-dropdown-item
-                    ><nuxt-link to="/history"
-                      >Руководство</nuxt-link
-                    ></el-dropdown-item
-                  >
-                  <el-dropdown-item
-                    ><nuxt-link to="/history"
-                      >Лицензия</nuxt-link
-                    ></el-dropdown-item
-                  >
-                  <el-dropdown-item
-                    ><nuxt-link to="/history"
-                      >Учредительные документы</nuxt-link
-                    ></el-dropdown-item
+                    @click="$router.push('/about/constituent-documents')"
+                    >Учредительные документы</el-dropdown-item
                   >
                 </el-dropdown-menu>
               </template>
