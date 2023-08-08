@@ -98,6 +98,7 @@
         &-logo {
           align-self: center;
           img {
+            user-select: none;
             height: 60px;
           }
         }
