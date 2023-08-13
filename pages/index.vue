@@ -486,7 +486,6 @@ onMounted(() => {
     &-5 {
       padding: 100px 0;
       &-container {
-        position: relative;
         &__title {
           text-align: center;
           font-size: 30px;
@@ -495,7 +494,6 @@ onMounted(() => {
           color: $text-color;
         }
         &-advantage {
-          position: absolute;
           width: 100%;
           margin-top: 50px;
           display: grid;
@@ -507,16 +505,7 @@ onMounted(() => {
           &-item {
             display: inline-grid;
             grid-template-rows: auto 1fr;
-            transform: translateY(100px);
             grid-row-gap: 20px;
-            transition: transform 0.3s ease-in;
-            transform: translateY(100px);
-            // &-disable {
-
-            // }
-            &-active {
-              transform: translateY(0);
-            }
             h4 {
               text-align: center;
               color: $text-color;
@@ -554,6 +543,18 @@ onMounted(() => {
 }
 @media screen and (max-width: 1500px) {
   .main {
+    &-banner {
+      &-descript {
+        width: 70%;
+        &__title {
+          font-size: 40px;
+          margin-bottom: 50px;
+        }
+        &__quote {
+          font-size: 25px;
+        }
+      }
+    }
     &-section {
       &-2 {
         &-container {
@@ -567,16 +568,46 @@ onMounted(() => {
           }
         }
       }
+      &-5 {
+        &-container {
+          &-advantage {
+            grid-template-columns: 1fr 1fr;
+            background: none;
+            grid-row-gap: 50px;
+            align-items: baseline;
+            &-item {
+              // align-self: center;
+              justify-self: center;
+              max-width: 250px;
+              &__image {
+                width: 270px;
+                height: 270px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
+
 @media screen and (max-width: 1000px) {
   .main {
+    &-banner {
+      &-descript {
+        &__title {
+          font-size: 30px;
+        }
+      }
+    }
     &-section {
       &-2 {
         &-holder {
           width: 100%;
           transform: translateX(-50%) translateY(0);
+          &__title {
+            font-size: 22px;
+          }
           &-branches {
             grid-template:
               'a a b b c c'
@@ -597,11 +628,17 @@ onMounted(() => {
             h3 {
               text-align: center;
             }
+            p {
+              &:last-child {
+                margin-left: 0;
+              }
+            }
           }
         }
       }
       &-3 {
         &-container {
+          padding: 50px 0;
           &__title {
           }
           &-directions {
@@ -611,6 +648,54 @@ onMounted(() => {
               text-align: center;
             }
           }
+        }
+      }
+      &-5 {
+        padding: 50px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 763px) {
+  .main {
+    &-banner {
+      height: 500px;
+      img {
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+    &-section {
+      &-5 {
+        &-container {
+          &-advantage {
+            grid-template-columns: 1fr;
+            &-item {
+              justify-self: center;
+              max-width: 250px;
+              &__image {
+                width: 270px;
+                height: 270px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .main {
+    &-banner {
+      height: 400px;
+      &-descript {
+        top: 50%;
+        &__title {
+        }
+        &__quote {
+          font-size: 20px;
         }
       }
     }
