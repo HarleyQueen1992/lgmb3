@@ -268,6 +268,8 @@ onMounted(() => {
 .main {
   &-banner {
     position: relative;
+    min-height: 50vw;
+    // height: 351px;
     img {
       user-select: none;
     }
