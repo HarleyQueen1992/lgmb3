@@ -44,4 +44,13 @@ import { breadcrumb } from '@/utils/breadcrumb';
     color: $primary !important;
   }
 }
+@media screen and (max-width: 480px) {
+  .el-breadcrumb__inner {
+    line-height: 25px;
+    font-size: 14px;
+  }
+  .el-breadcrumb__separator {
+    margin: 0 4px !important;
+  }
+}
 </style>
