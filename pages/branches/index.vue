@@ -84,4 +84,31 @@
     }
   }
 }
+@media screen and (max-width: 1200px) {
+  .branches-page {
+    &-container {
+      &-list {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .branches-page {
+    &-container {
+      &-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+@media screen and (max-width: 763px) {
+  .branches-page {
+    &-container {
+      &-list {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
 </style>
