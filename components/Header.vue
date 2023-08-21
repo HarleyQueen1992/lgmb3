@@ -36,22 +36,22 @@
               <nuxt-link to="/">Главная</nuxt-link>
             </li>
             <el-dropdown class="header-row-2-container-menu-list__item">
-              <span class="el-dropdown-link" @click="$router.push('/about')">
+              <span class="el-dropdown-link" @click="$router.push('/history')">
                 О больнице
               </span>
               <template #dropdown>
                 <el-dropdown-menu>
-                  <el-dropdown-item @click="$router.push('/about/history')"
+                  <el-dropdown-item @click="$router.push('/history')"
                     >Историческая спарвка</el-dropdown-item
                   >
-                  <el-dropdown-item @click="$router.push('/about/management')">
+                  <el-dropdown-item @click="$router.push('/management')">
                     Руководство</el-dropdown-item
                   >
-                  <el-dropdown-item @click="$router.push('/about/licenses')"
+                  <el-dropdown-item @click="$router.push('/licenses')"
                     >Лицензии</el-dropdown-item
                   >
                   <el-dropdown-item
-                    @click="$router.push('/about/constituent-documents')"
+                    @click="$router.push('/constituent-documents')"
                     >Учредительные документы</el-dropdown-item
                   >
                 </el-dropdown-menu>
@@ -78,27 +78,21 @@
             <nuxt-link to="/">Главная</nuxt-link>
           </li>
           <li class="header-menu-list__item" @click="menu = false">
-            <nuxt-link to="/about">О больнице</nuxt-link>
-          </li>
-          <li class="header-menu-list__item" @click="menu = false">
             <nuxt-link to="/branches">Отделения</nuxt-link>
           </li>
           <li class="header-menu-list__item" @click="menu = false">
-            <nuxt-link to="/about/history">Историческая спарвка</nuxt-link>
+            <nuxt-link to="/history">Историческая спарвка</nuxt-link>
           </li>
           <li class="header-menu-list__item" @click="menu = false">
-            <nuxt-link to="/about/management">Руководство</nuxt-link>
+            <nuxt-link to="/management">Руководство</nuxt-link>
           </li>
           <li class="header-menu-list__item" @click="menu = false">
-            <nuxt-link to="/about/licenses">Лицензии</nuxt-link>
+            <nuxt-link to="/licenses">Лицензии</nuxt-link>
           </li>
           <li class="header-menu-list__item" @click="menu = false">
-            <nuxt-link to="/about/constituent-documents"
+            <nuxt-link to="/constituent-documents"
               >Учредительные документы</nuxt-link
             >
-          </li>
-          <li class="header-menu-list__item" @click="menu = false">
-            <nuxt-link to="/branches">Отделения</nuxt-link>
           </li>
           <li class="header-menu-list__item" @click="menu = false">
             <nuxt-link to="/contacts">Контакты</nuxt-link>
@@ -110,7 +104,6 @@
 </template>
 <script setup>
 import { ref } from 'vue';
-// import { useRoute } from 'vue-router';
 
 const menu = ref(false);
 const direction = ref('ltr');
