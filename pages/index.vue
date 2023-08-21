@@ -703,7 +703,4 @@ onMounted(() => {
     }
   }
 }
-.title {
-  margin-top: 1800px;
-}
 </style>

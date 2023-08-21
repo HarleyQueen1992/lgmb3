@@ -1,7 +1,7 @@
 <template>
-  <div class="management-page">
+  <div class="management-page page">
     <div class="management-page-container container">
-      <h1 class="management-page-container__title">
+      <h1 class="management-page-container__title page-title">
         Руководство Луганской Государственной Многопрофильной Больницы №3
       </h1>
       <h2 class="management-page-container-head-doctor__title">Главный врач</h2>
@@ -71,34 +71,10 @@
 </template>
 <style lang="scss">
 .management-page {
-  padding: 50px 0;
   &-container {
     &__title {
       width: 70%;
-      font-size: 40px;
-      color: $title-color;
-      padding-bottom: 20px;
-      position: relative;
       margin-bottom: 50px;
-      &::before {
-        content: '';
-        position: absolute;
-        height: 3px;
-        width: 20%;
-        bottom: 0;
-        z-index: 10;
-        background-color: $main-color-2;
-      }
-      &::after {
-        content: '';
-        position: absolute;
-        height: 1px;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        z-index: 9;
-        background-color: rgba(0, 0, 0, 0.2);
-      }
     }
     &-head-doctor {
       margin: 50px 0;
@@ -226,11 +202,7 @@
 }
 @media screen and (max-width: 480px) {
   .management-page {
-    padding: 20px 0;
     &-container {
-      &__title {
-        font-size: 25px;
-      }
       &-head-doctor {
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
