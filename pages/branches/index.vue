@@ -3,13 +3,16 @@
     <div class="branches-page-container container">
       <h1 class="branches-page-container__title page-title">Отделения</h1>
       <div class="branches-page-container-list">
-        <div class="branches-page-container-list-item">
+        <nuxt-link
+          to="/branches/neurological-department"
+          class="branches-page-container-list-item"
+        >
           <Icon
             class="branches-page-container-list-item__icon"
             name="healthicons:neurology-outline"
           />
           <span>Неврология</span>
-        </div>
+        </nuxt-link>
         <div class="branches-page-container-list-item">
           <Icon
             class="branches-page-container-list-item__icon"
@@ -107,6 +110,7 @@
     &-container {
       &-list {
         grid-template-columns: 1fr;
+        grid-row-gap: 20px;
       }
     }
   }

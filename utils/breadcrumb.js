@@ -6,4 +6,5 @@ export const breadcrumb = {
   history: 'Историческая справка',
   licenses: 'Лицензии',
   'constituent-documents': 'Учредительные документы',
+  'neurological-department': 'Неврология',
 };

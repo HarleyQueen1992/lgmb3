@@ -257,7 +257,7 @@ const coordinates = [48.54008, 39.282911];
         grid-row-gap: 25px;
         &-info {
           &__title {
-            font-size: 20px;
+            font-size: 24px;
             line-height: 28px;
           }
         }

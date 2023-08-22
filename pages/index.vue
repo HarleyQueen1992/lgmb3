@@ -268,10 +268,12 @@ onMounted(() => {
 .main {
   &-banner {
     position: relative;
-    min-height: 50vw;
     // height: 351px;
     img {
       user-select: none;
+      object-fit: cover;
+      max-width: 100%;
+      height: 50vw;
     }
     &-descript {
       position: absolute;
