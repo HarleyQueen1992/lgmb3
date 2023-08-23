@@ -7,4 +7,5 @@ export const breadcrumb = {
   licenses: 'Лицензии',
   'constituent-documents': 'Учредительные документы',
   'neurological-department': 'Неврология',
+  therapy: 'Терапия',
 };

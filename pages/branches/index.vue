@@ -4,7 +4,7 @@
       <h1 class="branches-page-container__title page-title">Отделения</h1>
       <div class="branches-page-container-list">
         <nuxt-link
-          to="/branches/neurological-department"
+          to="/branches/neurology"
           class="branches-page-container-list-item"
         >
           <Icon
@@ -13,13 +13,16 @@
           />
           <span>Неврология</span>
         </nuxt-link>
-        <div class="branches-page-container-list-item">
+        <nuxt-link
+          to="/branches/therapy"
+          class="branches-page-container-list-item"
+        >
           <Icon
             class="branches-page-container-list-item__icon"
             name="healthicons:stethoscope-outline"
           />
           <span>Терапия</span>
-        </div>
+        </nuxt-link>
         <div class="branches-page-container-list-item">
           <Icon
             class="branches-page-container-list-item__icon"

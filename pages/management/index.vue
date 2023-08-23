@@ -8,7 +8,7 @@
       <div class="management-page-container-head-doctor">
         <div class="management-page-container-head-doctor__image">
           <img
-            src="./../../../assets/images/about/management/person-man.png"
+            src="./../../assets/images/about/management/person-man.png"
             alt="person-man"
           />
         </div>
@@ -32,7 +32,7 @@
         <div class="management-page-container-deputies-item">
           <div class="management-page-container-deputies-item__image">
             <img
-              src="./../../../assets/images/about/management/person-man.png"
+              src="./../../assets/images/about/management/person-man.png"
               alt="deputies-image"
             />
           </div>
@@ -50,7 +50,7 @@
         <div class="management-page-container-deputies-item">
           <div class="management-page-container-deputies-item__image">
             <img
-              src="./../../../assets/images/about/management/person-man.png"
+              src="./../../assets/images/about/management/person-man.png"
               alt="deputies-image"
             />
           </div>
