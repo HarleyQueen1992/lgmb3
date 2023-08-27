@@ -43,7 +43,8 @@
       >
         Наши Специализации
       </h2>
-      <div class="neurology-page-container-specializations">
+
+      <div class="neurology-page-container-">
         <div class="neurology-page-container-specializations-item">
           <h3>Неврологические Заболевания Центральной Нервной Системы</h3>
           <p>

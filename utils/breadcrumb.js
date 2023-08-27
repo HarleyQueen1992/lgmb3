@@ -8,4 +8,5 @@ export const breadcrumb = {
   'constituent-documents': 'Учредительные документы',
   'neurological-department': 'Неврология',
   therapy: 'Терапия',
+  surgery: 'Хирургия',
 };

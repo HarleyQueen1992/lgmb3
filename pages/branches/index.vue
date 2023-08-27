@@ -23,13 +23,16 @@
           />
           <span>Терапия</span>
         </nuxt-link>
-        <div class="branches-page-container-list-item">
+        <nuxt-link
+          to="/branches/surgery"
+          class="branches-page-container-list-item"
+        >
           <Icon
             class="branches-page-container-list-item__icon"
             name="healthicons:surgical-sterilization-outline"
           />
           <span>Хирургия</span>
-        </div>
+        </nuxt-link>
         <div class="branches-page-container-list-item">
           <Icon
             class="branches-page-container-list-item__icon"

@@ -197,8 +197,7 @@
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 100px;
         position: relative;
-
-        &::before {
+        о &::before {
           content: '';
           position: absolute;
           top: 50%;
