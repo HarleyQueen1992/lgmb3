@@ -9,4 +9,5 @@ export const breadcrumb = {
   'neurological-department': 'Неврология',
   therapy: 'Терапия',
   surgery: 'Хирургия',
+  reception: 'Приемное',
 };

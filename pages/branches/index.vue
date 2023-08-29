@@ -33,13 +33,16 @@
           />
           <span>Хирургия</span>
         </nuxt-link>
-        <div class="branches-page-container-list-item">
+        <nuxt-link
+          to="/branches/reception"
+          class="branches-page-container-list-item"
+        >
           <Icon
             class="branches-page-container-list-item__icon"
             name="healthicons:ambulance-outline"
           />
           <span>Приемное</span>
-        </div>
+        </nuxt-link>
         <div class="branches-page-container-list-item">
           <Icon
             class="branches-page-container-list-item__icon"
