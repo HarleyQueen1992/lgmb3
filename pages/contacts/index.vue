@@ -5,7 +5,7 @@
       <div class="contacts-page-container-blocks">
         <div style="grid-area: a" class="contacts-page-container-blocks-info">
           <h2 class="contacts-page-container-blocks-info__title">
-            ГУ "ЛГМБ № 3" ЛУГАНСКОЙ НАРОДНОЙ РЕСПУБЛИКИ
+            ГУ "Луганская Городская Многопрофильная Больница № 3" ЛНР
           </h2>
           <div class="contacts-page-container-blocks-info-content">
             <div class="contacts-page-container-blocks-info-content-item">
